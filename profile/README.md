@@ -53,9 +53,41 @@ NSNodes is your one-stop destination for everything in the **Network State ecosy
 
 ## Repositories
 
+### Platform
+
 | Repository | Description |
 |------------|-------------|
 | [**nsnodes-interface**](https://github.com/nsnodes/nsnodes-interface) | Main web application — the NSNodes platform |
+
+### Data Collection
+
+| Repository | Description |
+|------------|-------------|
+| [**events**](https://github.com/nsnodes/events) | Event aggregation from Luma.com, Sola.day, and other sources |
+| [**x-sync**](https://github.com/nsnodes/x-sync) | X/Twitter data collection for tracked Network State accounts |
+| [**farcaster-sync**](https://github.com/nsnodes/farcaster-sync) | Farcaster cast collection from the NS community |
+| [**newsletters-sync**](https://github.com/nsnodes/newsletters-sync) | Substack and Paragraph newsletter fetcher |
+
+### Analysis & Content
+
+| Repository | Description |
+|------------|-------------|
+| [**digest**](https://github.com/nsnodes/digest) | Weekly [Nodes Digest](https://nsnodes.substack.com) newsletter generator |
+| [**social-gdp**](https://github.com/nsnodes/social-gdp) | Social graph GDP analysis for Farcaster and X/Twitter |
+| [**balaji_x_topics**](https://github.com/nsnodes/balaji_x_topics) | Topic analysis of Balaji's Twitter discourse |
+
+### Architecture
+
+```
+Data Collection          Database          Frontend
+─────────────────        ────────          ────────
+x-sync ─────────┐
+farcaster-sync ─┼───▶ Supabase ───▶ nsnodes-interface
+newsletters-sync┤                         │
+events ─────────┘                         ▼
+                                    digest (weekly)
+social-gdp ─────▶ Analysis ◀────────────┘
+```
 
 ## Get Involved
 
