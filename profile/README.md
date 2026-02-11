@@ -1,11 +1,11 @@
 <div align="center">
 
 ```
- _   _  ___  _   _           _
-| \ | |/ __|| \ | | ___   __| | ___  ___
-|  \| |\__ \|  \| |/ _ \ / _` |/ _ \/ __|
-| |\  ||___/| |\  | (_) | (_| |  __/\__ \
-|_| \_|     |_| \_|\___/ \__,_|\___||___/
+                        _
+ _ __  ___ _ __   ___  __| | ___  ___
+| '_ \/ __| '_ \ / _ \/ _` |/ _ \/ __|
+| | | \__ \ | | | (_) | (_| |  __/\__ \
+|_| |_|___/_| |_|\___/ \__,_|\___||___/
 ```
 
 ### The ultimate hub for Network State events, jobs, content creators, VCs, and tooling.
@@ -20,11 +20,11 @@
 
 ---
 
-## What is NSNodes?
+## What is nsnodes?
 
-NSNodes is your one-stop destination for everything in the **Network State ecosystem**. We aggregate and organize the resources, opportunities, and communities shaping the decentralized future.
+nsnodes is your one-stop destination for everything in the **Network State ecosystem**. We aggregate and organize the resources, opportunities, and communities shaping the decentralized future.
 
-> *"Don't dare to raise me up in a nation state"*
+> *"Sovereignty starts with a shared idea."*
 
 ## Features
 
@@ -57,7 +57,7 @@ NSNodes is your one-stop destination for everything in the **Network State ecosy
 
 | Repository | Description |
 |------------|-------------|
-| [**nsnodes-interface**](https://github.com/nsnodes/nsnodes-interface) | Main web application — the NSNodes platform |
+| [**nsnodes-interface**](https://github.com/nsnodes/nsnodes-interface) | Main web application — the nsnodes platform |
 
 ### Data Collection
 
